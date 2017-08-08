@@ -14,4 +14,9 @@ As of August 2017:
 <li>HSK level 2 course book is 30% complete</li>
 </ul>
 </p>
-Uses Bootstrap and jQuery
+Uses Bootstrap and jQuery.
+
+Additional folders required:<br/>
+img : contains animated GIFs demonstrating stroke order and largeer images of single component characters.<br/>
+audio : contains pronounciations and dialogues<br/>
+
