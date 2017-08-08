@@ -3,6 +3,8 @@ HSK (Hànyǔ Shuǐpíng Kǎoshì 汉语水平 考试) study aid for learning Chi
 
 <i>Under Development</i>
 
+View a sample lesson <a href="https://www.stephenmccready.asia/mi/L2-L1.php" target="_blank">here</a>.
+
 Lessons contain: dialogues, grammar rules, role-play exercises, pronounciation guides, Hanzi character strokes, stroke order and radicals
 <p>
 As of August 2017:
