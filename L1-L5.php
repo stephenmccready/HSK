@@ -378,6 +378,26 @@ if(true == true) {
 		</table>
 	</div>
 </div>
+<div class="dash"></div>
+<div class="container-fluid">
+	<h3>应用。 Yìngyòng. Application </h3>
+	<h4>两人一组。Liǎng rén yī zǔ 1. Pair work</h4>
+	<p>Work in pairs and answer questions according to the actual situations</p>
+	<div class="table-responsive">
+		<h5>Supplementary words:</h5>
+		<table class="table table-bordered table-condensed table-responsive table-centered">
+			<tr><td>爷爷<br/>Yéyé<br/>(paternal) Grandpa</td><td>奶奶<br/>Nǎinai<br/>(paternal) Grandma</td><td>爸爸<br/>Bàba<br/>father</td><td>妈妈<br/>Māmā<br/>mother</td></tr>
+			<tr><td>哥哥<br/>Gēgē<br/>elder brother</td><td>姐姐<br/>Jiějiě<br/>elder sister</td><td>弟弟<br/>Dìdì<br/>younger brother</td><td>妹妹<br/>Mèimei<br/>Younger sister</td></tr>
+		</table>
+		<ul>
+			<li>A: Nǐ jiā yǒu jǐ kǒu rén?<br/>你 家 有 几 口 人？<br/>How many people are there in your family?</li>
+			<li>B: Wǒ jiā yǒu...<br/>我 家 有 。。。<br/>My family has...</li>
+			<li>A: Nǐ/Nǐ bàba/Nǐ māmā ... jīnnián duō dà le?<br/>你／你 爸爸／你 妈妈 。。。 今年 多 大 了？<br/>You / your dad / your mom ... is how old this year?</li>
+			<li>B: Wǒ/Wǒ bàba/Wǒ māmā ... jīnnián ...<br/>我／我 爸爸／我 妈妈 。。。 今年 。。。<br/>Me / my dad / my mom ... this year ...</li>
+		</ul>
+	</div>
+</div>
+<div class="dash"></div>
 <?php
 } else { header( 'Location: https://www.stephenmccready.asia/mi/index.php'); }
 ?>
