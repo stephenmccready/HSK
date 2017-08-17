@@ -62,5 +62,7 @@ a.custom-nav3 {width: 80px !important;}
 a.custom-nav4 {width: 100px !important;}
 a.custom-nav5 {width: 120px !important;}
 table.table-SCC tr > td:first-child {font-size: 200%;}
-.pyn {display: none;}
-.eng {display: none;}
+.pyn {display: none; color:purple;}
+.eng {display: none; color:green;}
+.xhan {display: none; color: maroon;}
+.container-fluid li {padding-bottom: 1.25em;}
