@@ -121,7 +121,7 @@ $(function(){
 							<a href="L2-E4.php">4 Zhège gōngzuō shì tā bāng wǒ jièshào de. 这个 工作 是 她 帮 我 介绍 的。</a><br/>
 							<a href="L2-E5.php">5 Jiù mǎi zhè jiàn ba. 就 买 这 件 吧。</a><br/>
 							<a href="L2-E6.php">6 Nǐ zěnme bù chīle? 你 怎么 不 吃了？</a><br/>
-							<a href="L2-E7.php">7 </a><br/>
+							<a href="L2-E7.php">7 Ràng wǒ xiǎngxiang zài gàosù nǐ. 让 我 想想 再 告诉 你。</a><br/>
 							<a href="L2-E8.php">8 </a><br/>
 							<a href="L2-E9.php">9 </a><br/>
 							<a href="L2-E10.php">10 </a><br/>
