@@ -2,7 +2,8 @@
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
 sec_session_start();
-if(login_check($mysqli) == true) {
+//if(login_check($mysqli) == true) {
+if(true == true) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,12 +41,12 @@ if(login_check($mysqli) == true) {
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: How many family members do you have?<br/>
-		B: I have 3 family members
+		B: I have 3 family members<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
 		<table class="table table-condensed table-responsive">
-			<tr><td colspan="4"><i>New Words</i></td></tr>
+			<tr><th colspan="4">New Words</th></tr>
 			<tr><td>家</td><td>jiā</td><td>noun<td>family</td></tr>
 			<tr><td>有</td><td>yǒu</td><td>verb</td><td>to have, there be</td></tr>
 			<tr><td>口</td><td>kǒu</td><td>measure</td><td><i>a measure word for<br/>members of families, etc.</i></td></tr>
@@ -66,12 +67,12 @@ if(login_check($mysqli) == true) {
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: How old is your daughter?<br/>
-		B: She is four years old
+		B: She is four years old<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
 		<table class="table table-condensed table-responsive">
-			<tr><td colspan="4"><i>New Words</i></td></tr>
+			<tr><th colspan="4">New Words</th></tr>
 			<tr><td>女儿</td><td>nǚ'ér</td><td>noun</td><td>daughter</td></tr>
 			<tr><td>几</td><td>jǐ</td><td>pronoun</td><td>how many</td></tr>
 			<tr><td>岁</td><td>suì</td><td>measure</td><td>year (of age)</td></tr>
@@ -99,14 +100,14 @@ if(login_check($mysqli) == true) {
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: How old is Professor Li?<br/>
-		B: She is 50 years old<br/>
+		B: She is 50 years old<br/><br/>
 		A: What about her daughter<br/>
-		B: Her daughter is 20.
+		B: Her daughter is 20.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
 		<table class="table table-condensed table-responsive">
-			<tr><td colspan="4"><i>New Words</i></td></tr>
+			<tr><th colspan="4">New Words</th></tr>
 			<tr><td>多</td><td>duō</td><td>adverb</td><td><i>indicating degree<br/>or extent</i></td></tr>
 			<tr><td>大</td><td>dà</td><td>adjective</td><td>(of age) old</td></tr>
 		</table>
@@ -116,8 +117,8 @@ if(login_check($mysqli) == true) {
 <div class="dash"></div>
 <div class="container-fluid">
 	<h3 class="sublesson">汪释 Notes</h3>
-	<h4 class="sublesson">1. The Interrogative Pronoun "几" <i>(jǐ)</i></h4>
-	<p>The interrogative Pronoun "几" <i>(jǐ)</i> is used to ask about a number, usually less than 10. For example:</p>
+	<h4 class="sublesson">1. The Interrogative Pronoun "<b>几</b>" <i>(jǐ)</i></h4>
+	<p>The interrogative Pronoun "<b>几</b>" <i>(jǐ)</i> is used to ask about a number, usually less than 10. For example:</p>
 	<table class="table table-responsive table-condensed">
 		<tr><td>你有<b>几</b>个汉语老师<br/>Nǐ yǒu <b>jǐ</b> ge Hànyǔ lǎoshī?</td><td>How many Chinese teachers do you have?</td></tr>
 		<tr><td>李老师家有<b>几</b>口人？<br/>Lǐ lǎoshī jiā yǒu <b>jǐ</b> kǒu rén?</td><td>Professor Lǐ's family has how many members?</td></tr>
@@ -206,16 +207,25 @@ if(login_check($mysqli) == true) {
 		<br/>
 	</div>
 	<h4 class="sublesson">3. Describe the pictures using the newly-learned language points and words.</h4>
-	<p>Tā shi _________, tā jīnnián _________ le。<br/>
-	他 是 _________, 他 今年 _________ 了。</p>
-	<p>Tā jiā yǒu _________ rén<br/>
-	她 家 有 _________ 人。</p>
-	<p>Tā shì wǒmen de Hànyǔ _________ 。<br/>
-	他 是 我们 的 汉语 _________ 。<br/>
-	tā jīnnián _________ le.<br/>
-	他 今年 _________ 了。</p>
-	<p>Zhè shì Zhāng lǎoshī de _________, tā jīnnián _________ le。<br/>
-	这 是 张 老师 的 _________, 她 今年 _________ 了。</p>
+	<div class="col-xs-12 col">
+	<p>Tā shi [ <button type="button" id="nX1" onclick="myToggle(this.id);">1</button> <span class="pyn" id="pynX1">xuésheng</span> ], 
+	tā jīnnián [ <button type="button" id="nX2" onclick="myToggle(this.id);">2</button> <span class="pyn" id="pynX2">shí suì</span> ] le。</p>
+	<p>他 是 [ <button type="button" id="ziX1" onclick="myToggle(this.id);">一</button> <span class="xhan" id="hanziX1">学生</span> ],
+	 他 今年 [ <button type="button" id="ziX2" onclick="myToggle(this.id);">二</button> <span class="xhan" id="hanziX2">十岁</span> ] 了。<br/><br/>	
+	</p>
+	<p>Tā jiā yǒu [ <button type="button" id="nX3" onclick="myToggle(this.id);">3</button> <span class="pyn" id="pynX3">lǎoshī</span> ] rén<br/>
+	她 家 有 [ <button type="button" id="ziX3" onclick="myToggle(this.id);">三</button> <span class="xhan" id="hanziX3">老师</span> ] 人。<br/><br/>
+	</p>
+	<p>Tā shì wǒmen de Hànyǔ [ <button type="button" id="nX4" onclick="myToggle(this.id);">4</button> <span class="pyn" id="pynX4">lǎoshī</span> ] ,
+	 tā jīnnián [ <button type="button" id="nX5" onclick="myToggle(this.id);">5</button> <span class="pyn" id="pynX5">sān shí suì</span> ] le.<br/>
+	他 是 我们 的 汉语 [ <button type="button" id="ziX4" onclick="myToggle(this.id);">四</button> <span class="xhan" id="hanziX4">老师</span>  ] ,
+	他 今年 [ <button type="button" id="ziX5" onclick="myToggle(this.id);">五</button> <span class="xhan" id="hanziX5">三十岁</span>  ] 了<br/><br/>
+	</p>
+	<p>Zhè shì Zhāng lǎoshī de [ <button type="button" id="nX6" onclick="myToggle(this.id);">6</button> <span class="pyn" id="pynX6">nǚ'èr</span>  ],
+	 tā jīnnián [ <button type="button" id="nX7" onclick="myToggle(this.id);">7</button> <span class="pyn" id="pynX7">ér shí suì</span> ] le。<br/>
+	这 是 张 老师 的 [ <button type="button" id="ziX6" onclick="myToggle(this.id);">六</button> <span class="xhan" id="hanziX6">女儿</span> ], 
+	她 今年 [ <button type="button" id="ziX7" onclick="myToggle(this.id);">七</button> <span class="xhan" id="hanziX7">二十岁</span> ] 了。</p>
+	</div>
 </div>
 <div class="dash"></div>
 <div class="container-fluid">
