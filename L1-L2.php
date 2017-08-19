@@ -460,11 +460,11 @@ if(login_check($mysqli) == true) {
 	</div>
 	<h4 class="sublesson">2. Single Component Characters</h4>
 	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>口</td><td>kǒu</td><td>mouth</td><td><div><img class="strokeOrder" src="img\口-order.gif" alt="口"/></div></td></tr>	
-		<tr><td>见</td><td>jiàn</td><td>to see</td><td><div><img class="strokeOrder" src="img\见-order.gif" alt="见"/></div></td></tr>	
-		<tr><td>山</td><td>shān</td><td>mountain</td><td><div><img class="strokeOrder" src="img\山-order.gif" alt="山"/></div></td></tr>	
-		<tr><td>小</td><td>xiǎo</td><td>small</td><td><div><img class="strokeOrder" src="img\小-order.gif" alt="小"/></div></td></tr>		
-		<tr><td>不</td><td>bù</td><td>not</td><td><div><img class="strokeOrder" src="img\不-order.gif" alt="不"/></div></td></tr>	
+		<tr><td>口</td><td>kǒu</td><td>mouth</td><td><div><img class="strokeOrder" src="img/口-order.gif" alt="口"/></div></td></tr>	
+		<tr><td>见</td><td>jiàn</td><td>to see</td><td><div><img class="strokeOrder" src="img/见-order.gif" alt="见"/></div></td></tr>	
+		<tr><td>山</td><td>shān</td><td>mountain</td><td><div><img class="strokeOrder" src="img/山-order.gif" alt="山"/></div></td></tr>	
+		<tr><td>小</td><td>xiǎo</td><td>small</td><td><div><img class="strokeOrder" src="img/小-order.gif" alt="小"/></div></td></tr>		
+		<tr><td>不</td><td>bù</td><td>not</td><td><div><img class="strokeOrder" src="img/不-order.gif" alt="不"/></div></td></tr>	
 	</table>
 </div>
 <?php
