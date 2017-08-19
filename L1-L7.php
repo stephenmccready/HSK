@@ -129,9 +129,9 @@ if(login_check($mysqli) == true) {
 	<h4 class="sublesson">1. Expression of a Date(1): month, date, day of week</h4>
 	<p>The way to say a date in Chinese observes the principle of the "bigger unit coming before the smaller one". The month is said first, then the date and finally the day of the week. In spoked Chinese "<b>号</b>" (<b>hào</b>) is often used instead of "日" (rì) to express the date. For example:</p>
 	<table class="table table-responsive table-condensed table-centered"><tr>
-		<td>9<b>月<b/> 1<b>号</b>， <b>星期</b>三。<br/>Jiǔ <b>yuè</b> yī <b>hào</b> <b>xīngqī</b> sān.<br/>September 1st, Wednesday.</td>
-		<td>9<b>月<b/> 2<b>号</b>， <b>星期</b>四。<br/>Jiǔ <b>yuè</b> èr <b>hào</b> <b>xīngqī</b> sì.<br/>September 2nd, Thursday.</td>
-		<td>8<b>月<b/> 31<b>号</b>， <b>星期</b>二。<br/>Bā <b>yuè</b> sānshíyī <b>hào</b> <b>xīngqī</b> èr.<br/>August 31st, Tuesday.</td>
+		<td>9<b>月</b> 1<b>号</b>， <b>星期</b>三。<br/>Jiǔ <b>yuè</b> yī <b>hào</b> <b>xīngqī</b> sān.<br/>September 1st, Wednesday.</td>
+		<td>9<b>月</b> 2<b>号</b>， <b>星期</b>四。<br/>Jiǔ <b>yuè</b> èr <b>hào</b> <b>xīngqī</b> sì.<br/>September 2nd, Thursday.</td>
+		<td>8<b>月</b> 31<b>号</b>， <b>星期</b>二。<br/>Bā <b>yuè</b> sānshíyī <b>hào</b> <b>xīngqī</b> èr.<br/>August 31st, Tuesday.</td>
 	</tr></table>
 </div>
 <div class="container-fluid">
@@ -258,9 +258,9 @@ if(login_check($mysqli) == true) {
 	<h4 class="sublesson">1. Single-Component Characters</h4>
 	<div class="table">
 		<table class="table table-bordered table-condensed table-responsive table-centered">
-		<tr><td>四</td><td>sì</td><td>4</td><td><div><img class="strokeOrder" src="img\四-order.gif" alt="四"/></div></td></tr>
-		<tr><td>五</td><td>wǔ</td><td>5</td><td><div><img class="strokeOrder" src="img\五-order.gif" alt="五"/></div></td></tr>
-		<tr><td>书</td><td>shū</td><td>writing<br/>book</td><td><div><img class="strokeOrder" src="img\书-order.gif" alt="书"/></div></td></tr>
+		<tr><td>四</td><td>sì</td><td>4</td><td><div><img class="strokeOrder" src="img/四-order.gif" alt="四"/></div></td></tr>
+		<tr><td>五</td><td>wǔ</td><td>5</td><td><div><img class="strokeOrder" src="img/五-order.gif" alt="五"/></div></td></tr>
+		<tr><td>书</td><td>shū</td><td>writing<br/>book</td><td><div><img class="strokeOrder" src="img/书-order.gif" alt="书"/></div></td></tr>
 		</table>
 	</div>
 	<h4 class="sublesson">2. Structure of Chinese Characters (2): left-right and left-middle-right</h4>
