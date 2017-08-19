@@ -23,20 +23,20 @@ if(login_check($mysqli) == true) {
 <?php include 'navbar.php'; ?>
 <div class="container-fluid">
 	<div class="jumbotron lessonHeaderLeft">Dì èr sān<br/>第三课<br/>Lesson 3</div>
-	<div class="lessonHeaderRight"><h3>Nǐ jiào shénme míngzi?<br /><b>你叫什么名字</b><br /><b>What's your name?</b></h3></div>
+	<div class="lessonHeaderRight"><h3>Nǐ jiào shénme míngzi?<br/><b>你叫什么名字</b><br/><b>What's your name?</b></h3></div>
 </div>
 <div class="container-fluid">
 	<h3 class="sublesson">漯文 Text</h3>
 	<h4 class="sublesson">1. In the school &#128191; 03-1
 	<audio controls="controls" preload="metadata" id="03-1"><source src="../mandarin/audio/03-1.mp3" type="audio/mpeg">No audio</audio></h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Nǐ jiào shénme míngzi?<br />
-		A: 你 叫 什么 名字?<br />
-		<span class="masked">B: </span>Wǒ jiào Lǐ Yuè<br />
+		<span class="masked">A: </span>Nǐ jiào shénme míngzi?<br/>
+		A: 你 叫 什么 名字?<br/>
+		<span class="masked">B: </span>Wǒ jiào Lǐ Yuè<br/>
 		B: 我 叫 李月
 	</div>
 	<div class="col-xs-12 col-md-6 col">
-		<i>English Version</i><br />
+		<i>English Version</i><br/>
 		A: What's your name?<br/>
 		B: My name is Lǐ Yuè
 	</div>
@@ -59,13 +59,13 @@ if(login_check($mysqli) == true) {
 	<h4 class="sublesson">2. In the classroom &#128191; 03-2
 	<audio controls="controls" preload="metadata" id="03-2"><source src="../mandarin/audio/03-2.mp3" type="audio/mpeg">No audio</audio></h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Nǐ shì lǎoshī ma?<br />
-		A: 你 是 老师 吗<br />
-		<span class="masked">B: </span>Wǒ bú shì lǎoshī, wǒ shì xuésheng<br />
+		<span class="masked">A: </span>Nǐ shì lǎoshī ma?<br/>
+		A: 你 是 老师 吗<br/>
+		<span class="masked">B: </span>Wǒ bú shì lǎoshī, wǒ shì xuésheng<br/>
 		B: 我 不 是 老师， 我 是 学生
 	</div>
 	<div class="col-xs-12 col-md-6 col">
-		<i>English Version</i><br />
+		<i>English Version</i><br/>
 		A: Are you a teacher?<br/>
 		B: No, I'm not, I'm a student
 	</div>
@@ -86,13 +86,13 @@ if(login_check($mysqli) == true) {
 	<h4 class="sublesson">3. In the school &#128191; 03-3
 	<audio controls="controls" preload="metadata" id="03-3"><source src="../mandarin/audio/03-3.mp3" type="audio/mpeg">No audio</audio></h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Nǐ shì Zhōngguó rén ma?<br />
-		A: 你 是 中国 人 吗?<br />
-		<span class="masked">B: </span>Wǒ bú shì Zhōngguó rén, wǒ shì Měiguó rén.<br />
+		<span class="masked">A: </span>Nǐ shì Zhōngguó rén ma?<br/>
+		A: 你 是 中国 人 吗?<br/>
+		<span class="masked">B: </span>Wǒ bú shì Zhōngguó rén, wǒ shì Měiguó rén.<br/>
 		B: 我 不 是 中国 人，我 是 美国 人.
 	</div>
 	<div class="col-xs-12 col-md-6 col">
-		<i>English Version</i><br />
+		<i>English Version</i><br/>
 		A: Are you Chinese?<br/>
 		B: No, I'm not Chinese, I'm American.
 	</div>
@@ -300,27 +300,25 @@ if(login_check($mysqli) == true) {
 				<th>例字<br/>lì zì<br/>Example<br/>Characters</th>
 			</tr>
 			<tr>
-				<td>横折钩 héngzhégōu<br />horizontal-turning-hook</td>
+				<td>横折钩 héngzhégōu<br/>horizontal-turning-hook</td>
 				<td><img style="width: 2em;" src="../mandarin/img/hengzhegou.gif" alt="héngzhégōu"/></td>
-				<td>门 mén &nbsp；door<br />月 yuè &nbsp；moon</td>
+				<td>门 mén &nbsp; door<br/>月 yuè &nbsp; moon</td>
 			</tr>
 			<tr>
-				<td>卧钩 wǒgōu<br />lying hook</td>
+				<td>卧钩 wǒgōu<br/>lying hook</td>
 				<td><img style="width: 2em;" src="../mandarin/img/wogou.gif" alt="wǒgōu"/></td>
-				<td>心 xīn &nbsp；heart<br />您 nín &nbsp；(<i>polite</i>) you</td>
+				<td>心 xīn &nbsp; heart<br/>您 nín &nbsp; (<i>polite</i>) you</td>
 			</tr>
 		</table>
 	</div>
 	<div class="clearfix">&nbsp;</div>
 	<h4 class="sublesson">2. Single-Component Characters</h4>
-	<p>
 	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>月</td><td>yuè</td><td>moon</td><td><div><img class="strokeOrder" src="img\月-order.gif" alt="月"/></div></td></tr>	
-		<tr><td>心</td><td>xīn</td><td>heart</td><td><div><img class="strokeOrder" src="img\心-order.gif" alt="心"/></div></td></tr>	
-		<tr><td>中</td><td>zhōng</td><td>middle</td><td><div><img class="strokeOrder" src="img\中-order.gif" alt="中"/></div></td></tr>	
-		<tr><td>人</td><td>rén</td><td>person</td><td><div><img class="strokeOrder" src="img\人-order.gif" alt="人"/></div></td></tr>
-	<table>
-	</p>
+		<tr><td>月</td><td>yuè</td><td>moon</td><td><div><img class="strokeOrder" src="img/月-order.gif" alt="月"/></div></td></tr>	
+		<tr><td>心</td><td>xīn</td><td>heart</td><td><div><img class="strokeOrder" src="img/心-order.gif" alt="心"/></div></td></tr>	
+		<tr><td>中</td><td>zhōng</td><td>middle</td><td><div><img class="strokeOrder" src="img/中-order.gif" alt="中"/></div></td></tr>	
+		<tr><td>人</td><td>rén</td><td>person</td><td><div><img class="strokeOrder" src="img/人-order.gif" alt="人"/></div></td></tr>
+	</table>
 	<div class="clearfix">&nbsp;</div>
 	<h4 class="sublesson">3. Stroke Order (1): horizontal preceding vertical and left-failing preceding right-falling</h4>
 	<div class="table-responsive">
@@ -331,12 +329,12 @@ if(login_check($mysqli) == true) {
 				<th>Stroke<br/>Order</th>
 			</tr>
 			<tr>
-				<td>先横后竖<br />Horizontal<br/>preceding<br />vertical</td>
+				<td>先横后竖<br/>Horizontal<br/>preceding<br/>vertical</td>
 				<td>十 shí &nbsp; 10<br/>工 gōng &nbsp; work, labor</td>
 				<td>一  十<br/></td>
 			</tr>
 			<tr>
-				<td>先撇后捺<br />Left-falling<br/>preceding<br/>right-falling</td>
+				<td>先撇后捺<br/>Left-falling<br/>preceding<br/>right-falling</td>
 				<td>八 bā &nbsp; 8<br/>人 rén &nbsp; human</td>
 				<td>丿 八<br/>丿 人</td>
 			</tr>
@@ -348,9 +346,9 @@ if(login_check($mysqli) == true) {
 	<h3>Application</h3>
 	<h4 class="sublesson">1. Pair work</h4>
 	<p>Work in pairs and introduce yourself.</p>
-	<p><span class="masked">A: </span>Wǒ jiào Lǐ Yuè, wǒ shì Zhōngguó rén, wǒ shì lǎoshī<br />
+	<p><span class="masked">A: </span>Wǒ jiào Lǐ Yuè, wǒ shì Zhōngguó rén, wǒ shì lǎoshī<br/>
 	A: 我  叫  李 月， 我  是    中    国   人，  我  是   老   师</p>
-	<p><span class="masked">B: </span>Wǒ jiào Dàwèi, wǒ shì Měiguó rén, wǒ shì xuésheng<br />
+	<p><span class="masked">B: </span>Wǒ jiào Dàwèi, wǒ shì Měiguó rén, wǒ shì xuésheng<br/>
 	B: 我  叫  </p>
 	<h4 class="sublesson">2. Group work</h4>
 	<p>Work in groups of 3-4 and ask about each other's names and nationalities. Each group chooses one member to make a report</p>
