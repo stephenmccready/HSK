@@ -23,23 +23,23 @@ if(login_check($mysqli) == true) {
 <?php include 'navbar.php'; ?>
 <div class="container-fluid">
 	<div class="jumbotron lessonHeaderLeft">Dì yì kè<br/>第一课<br/>Lesson 1</div>
-	<div class="lessonHeaderRight"><h2>Nǐ hǎo<br />你㚥<br /><b>Hello</b></h2</div>
+	<div class="lessonHeaderRight"><h2>Nǐ hǎo<br/>你㚥<br/><b>Hello</b></h2></div>
 </div>
 <div class="container-fluid">
 	<h4 class="sublesson">漯文 Text 1. <button onclick="play('01-1');">&#128191; 01-1</button>
 	<audio controls="" preload="metadata" id="01-1"><source src="../mandarin/audio/01-01.mp3" type="audio/mpeg">No audio</audio>
 	</h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Nǐ hǎo !<br />
-		A: 你㚥 !<br />
-		<span class="masked">B: </span>Nǐ hǎo !<br />
-		B: 你㚥 !<br />
+		<span class="masked">A: </span>Nǐ hǎo !<br/>
+		A: 你㚥 !<br/>
+		<span class="masked">B: </span>Nǐ hǎo !<br/>
+		B: 你㚥 !<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
-		<i>English Version</i><br />
+		<i>English Version</i><br/>
 		A: Hello!<br/>
 		B: Hello!<br/>
-		<br />
+		<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
@@ -54,17 +54,17 @@ if(login_check($mysqli) == true) {
 	<audio controls="" preload="metadata" id="01-2"><source src="../mandarin/audio/01-02.mp3" type="audio/mpeg">No audio</audio>
 	</h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Nǐn hǎo !<br />
-		A: 您 㚥 !<br />
-		<span class="masked">B: </span>Nǐmen hǎo !<br />
-		B: 你们 㚥 !<br />
+		<span class="masked">A: </span>Nǐn hǎo !<br/>
+		A: 您 㚥 !<br/>
+		<span class="masked">B: </span>Nǐmen hǎo !<br/>
+		B: 你们 㚥 !<br/>
 	</div>
 	<div class="col-xs-12 col-md-4 col">
 		<div class="col-xs-12 col">
-			<i>English Version</i><br />
+			<i>English Version</i><br/>
 			A: Hello!<br/>
 			B: Hello!<br/>
-			<br />
+			<br/>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
@@ -80,23 +80,23 @@ if(login_check($mysqli) == true) {
 	<audio controls="" preload="metadata" id="01-3"><source src="../mandarin/audio/01-03.mp3" type="audio/mpeg">No audio</audio>
 	</h4>
 	<div class="col-xs-12 col-md-6 col">
-		<span class="masked">A: </span>Duìbuqǐ !<br />
-		A: 对不起 !<br />
-		<span class="masked">B: </span>Méi guānxi !<br />
-		B: 没 关系 !<br />
+		<span class="masked">A: </span>Duìbuqǐ !<br/>
+		A: 对不起 !<br/>
+		<span class="masked">B: </span>Méi guānxi !<br/>
+		B: 没 关系 !<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
-		<i>English Version</i><br />
+		<i>English Version</i><br/>
 		A: I'm sorry!<br/>
 		B: That's OK!<br/>
-		<br />
+		<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
 		<table class="table table-condensed table-responsive">
 			<tr><th colspan="4"><i>New Words</i></th></tr>
 			<tr><td>对不起</td><td>duìbuqǐ</td><td>verb</td><td>to be sorry</td></tr>
-			<tr><td>没 关系</td><td>méi guānxi</td><td></td><td>that's OK<br />it doesn't matter</tr>
+			<tr><td>没 关系</td><td>méi guānxi</td><td></td><td>that's OK<br/>it doesn't matter</tr>
 		</table>
 		</div>
 	</div>
@@ -216,10 +216,10 @@ if(login_check($mysqli) == true) {
 	<h4 class="sublesson">2. Tones (Four Tones)</h4>
 	<p>There are four basic tones in Chinese, respectively called the 1st tone (55), the 2nd tone (35), the 3rd tone (214) and the 4th tone (51). They make a difference in meaning.</p>
 	<div class="row">
-		<div class="col-xs-12 col-sm-3 col"><canvas id="tone1"></canvas><br />mā<br />吗<br/>mother</div>
-		<div class="col-xs-12 col-sm-3 col"><canvas id="tone2"></canvas><br />má<br />麻<br/>fibrous crops</div>
-		<div class="col-xs-12 col-sm-3 col"><canvas id="tone3"></canvas><br />mǎ<br />马<br/>horse</div>
-		<div class="col-xs-12 col-sm-3 col"><canvas id="tone4"></canvas><br />mà<br />骂<br/>to scold</div>
+		<div class="col-xs-12 col-sm-3 col"><canvas id="tone1"></canvas><br/>mā<br/>吗<br/>mother</div>
+		<div class="col-xs-12 col-sm-3 col"><canvas id="tone2"></canvas><br/>má<br/>麻<br/>fibrous crops</div>
+		<div class="col-xs-12 col-sm-3 col"><canvas id="tone3"></canvas><br/>mǎ<br/>马<br/>horse</div>
+		<div class="col-xs-12 col-sm-3 col"><canvas id="tone4"></canvas><br/>mà<br/>骂<br/>to scold</div>
 	</div>
 	<h5>Read the syllables aloud and pay attention to the tones. &#128191; 01-5</h5>
 	<audio class="hidden" controls="" id="a1" preload="metadata"><source src="../mandarin/audio/a1.m4a" type="audio/mpeg">No audio</audio>
@@ -320,33 +320,33 @@ if(login_check($mysqli) == true) {
 <audio class="hidden" controls=""  preload="metadata" id="xue3"><source src="../mandarin/audio/xue3.mp3" type="audio/mpeg">No audio</audio>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/yi1.png" alt="衣 yī"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('yi1');">衣<br />yī<br />clothes</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('yi1');">衣<br/>yī<br/>clothes</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/wu3.png" alt="五 wǔ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('wu3');">五<br />wǔ<br />5</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('wu3');">五<br/>wǔ<br/>5</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/yu2.png" alt="鱼 (魚) yú"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('yu2');">鱼 (魚)<br />yú<br />fish</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('yu2');">鱼 (魚)<br/>yú<br/>fish</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/er3.png" alt="耳 ěr"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('er3');">耳<br />ěr<br />ear</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('er3');">耳<br/>ěr<br/>ear</button></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/bi3.png" alt="笔 (筆) bǐ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('bi3');">笔 (筆)<br />bǐ<br />pen</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('bi3');">笔 (筆)<br/>bǐ<br/>pen</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/mao1.png" alt="猫 (貓) māo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('mao1');">猫 (貓)<br />māo<br />cat</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('mao1');">猫 (貓)<br/>māo<br/>cat</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/dao3.png" alt="岛 (島) dǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('dao3');">岛 (島)<br />dǎo<br />island</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('dao3');">岛 (島)<br/>dǎo<br/>island</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/hua1.png" alt="花 huā"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('hua1');">花<br />huā<br />flower</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('hua1');">花<br/>huā<br/>flower</button></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/ji1.png" alt="鸡 (雞) jī"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('ji1');">鸡 (雞)<br />jī<br />chicken</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('ji1');">鸡 (雞)<br/>jī<br/>chicken</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/qi1.png" alt="七 qī"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('qi1');">七<br />qī<br />7</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('qi1');">七<br/>qī<br/>7</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/xie2.png" alt="鞋 xié"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('xie2');">鞋<br />xié<br />shoes</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('xie2');">鞋<br/>xié<br/>shoes</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img class="lessonImg" src="img/xue3.png" alt="雪 xuě"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('xue3');">雪<br />xuě<br />snow</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('xue3');">雪<br/>xuě<br/>snow</button></div>
 			</div>
 	</div>
 	<div class="clearfix"></div>
@@ -363,23 +363,23 @@ if(login_check($mysqli) == true) {
 <audio class="hidden" controls=""  preload="metadata" id="er2ji1"><source src="../mandarin/audio/er2ji1.m4a" type="audio/mpeg">No audio</audio>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="咖啡 kā fēi"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('ka1fei1');">咖啡<br />kāfēi<br />coffee</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('ka1fei1');">咖啡<br/>kāfēi<br/>coffee</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="可乐 kě lè"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('ke3le4');">可乐<br />kělè<br />cola</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('ke3le4');">可乐<br/>kělè<br/>cola</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="烤鸭 kǎoyā"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('kao3ya1');">烤鸭<br />kǎoyā<br />roast duck</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('kao3ya1');">烤鸭<br/>kǎoyā<br/>roast duck</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="火锅 huǒ guō"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('huo3guo1');">火锅<br />huǒguō<br />hotpot</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('huo3guo1');">火锅<br/>huǒguō<br/>hotpot</button></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="地图 dì tú"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('di4tu2');">地图<br />dìtú<br />map</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('di4tu2');">地图<br/>dìtú<br/>map</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="飞机 fēijī"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('fei1ji1');">飞机<br />fēijī<br />airplane</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('fei1ji1');">飞机<br/>fēijī<br/>airplane</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="毛笔 máobǐ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('mao2bi3');">毛笔<br />máobǐ<br />writing brush</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('mao2bi3');">毛笔<br/>máobǐ<br/>writing brush</button></div>
 				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt=""> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('er2ji1');">耳机<br />ěrjī<br />headphones</button></div>
+				<button type="button" class="btn btn-huge btn-default" onclick="play('er2ji1');">耳机<br/>ěrjī<br/>headphones</button></div>
 			</div>
 	</div>
 	<div class="clearfix"></div>
@@ -395,37 +395,39 @@ if(login_check($mysqli) == true) {
 	</div>
 	<div class="clearfix"></div>
 	<div class="col-xs-12 col">
-			<h5>Read the following words aloud and pay attention to the change in the tone of the 3<sup>rd</sup> tone syllables. &#128191; 01-8</h5>
-<audio class="hidden" controls=""  preload="metadata" id=""><source src="../mandarin/audio/.m4a" type="audio/mpeg">No audio</audio>
+			<h5>Read the following words aloud and pay attention to the change in the tone of the 3<sup>rd</sup> tone syllables.<br/>
+			<button class="cd" onclick="play('08-1');">&#128191; 01-8</button>
+			<audio class="hidden" controls="" preload="metadata" id="01-08">
+			<source src="../mandarin/audio/01-08.mp3" type="audio/mpeg">No audio</audio></h5>
 			<div class="row">
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="nǐ hǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('ni3hao3');">你好<br />nǐ hǎo<br/>hello</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="kě yǐ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('ke3yi3');">可以<br />kě yǐ<br/>can</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="fǔdǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('fu3dao3');">辅导<br />fǔdǎo<br/>to tutor</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="xiǎojiě"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('xiao3jie3');">小解<br />xiǎojiě<br/>to urinate</button></div>
+				<div class="col-xs-6 col-sm-3 col">
+				你好<br/>nǐ hǎo<br/>hello</div>
+				<div class="col-xs-6 col-sm-3 col">
+				可以<br/>kě yǐ<br/>can</div>
+				<div class="col-xs-6 col-sm-3 col">
+				辅导<br/>fǔdǎo<br/>to tutor</div>
+				<div class="col-xs-6 col-sm-3 col">
+				小解<br/>xiǎojiě<br/>to urinate</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="kǒuyǔ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('kou3yu3');">口语<br />kǒuyǔ<br/>gossip</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="yǔfǎ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('yu3fa3');">语法<br />yǔfǎ<br/>grammar</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="Fǎyǔ"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('fa3yu3');">法语<br />Fǎyǔ<br/>French</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="tǎohǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('tao3hao3');">讨好<br />tǎohǎo<br/>to get the<br/>desired outcome</button> </div>
+				<div class="col-xs-6 col-sm-3 col">
+				口语<br/>kǒuyǔ<br/>gossip</div>
+				<div class="col-xs-6 col-sm-3 col">
+				语法<br/>yǔfǎ<br/>grammar</div>
+				<div class="col-xs-6 col-sm-3 col">
+				法语<br/>Fǎyǔ<br/>French</div>
+				<div class="col-xs-6 col-sm-3 col">
+				讨好<br/>tǎohǎo<br/>to get the<br/>desired outcome </div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="liǎojiě"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('liao3jie3');">了解<br />liǎojiě<br/>to understand</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="yǒuhǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('you3hao3');">友好<br />yǒuhǎo<brfriendlybutton></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="yǔsǎn"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('yu3san3');">雨伞<br />yǔsǎn<br/>umbrella</button></div>
-				<div class="col-xs-6 col-sm-3 col"><!-- <img style="display:block;" src="img/testimage.png" alt="shǒubiǎo"> -->
-				<button type="button" class="btn btn-huge btn-default" onclick="play('shou3biao3');">手表<br />shǒubiǎo<br/>wrist watch</button></div>
+				<div class="col-xs-6 col-sm-3 col">
+				了解<br/>liǎojiě<br/>to understand</div>
+				<div class="col-xs-6 col-sm-3 col">
+				友好<br/>yǒuhǎo<br/>friendly</div>
+				<div class="col-xs-6 col-sm-3 col">
+				雨伞<br/>yǔsǎn<br/>umbrella</div>
+				<div class="col-xs-6 col-sm-3 col">
+				手表<br/>shǒubiǎo<br/>wrist watch</div>
 			</div>
 	</div>
 </div>
@@ -506,16 +508,16 @@ if(login_check($mysqli) == true) {
 	</div>
 	<h4 class="sublesson">1. Single Component Characters</h4>
 	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>一</td><td>yī</td><td>1</td><td><div><img class="strokeOrder" src="img\一-order.gif" alt="一"/></div></td></tr>
-		<tr><td>二</td><td>èr</td><td>2</td><td><div><img class="strokeOrder" src="img\二-order.gif" alt="二"/></div></td></tr>
-		<tr><td>三</td><td>sān</td><td>3</td><td><div><img class="strokeOrder" src="img\三-order.gif" alt="三"/></div></td></tr>
-		<tr><td>四</td><td>sì</td><td>4</td><td><div><img class="strokeOrder" src="img\四-order.gif" alt="四"/></div></td></tr>
-		<tr><td>五</td><td>wǔ</td><td>5</td><td><div><img class="strokeOrder" src="img\五-order.gif" alt="五"/></div></td></tr>
-		<tr><td>六</td><td>liù</td><td>6</td><td><div><img class="strokeOrder" src="img\六-order.gif" alt="六"/></div></td></tr>
-		<tr><td>七</td><td>qī</td><td>7</td><td><div><img class="strokeOrder" src="img\七-order.gif" alt="七"/></div></td></tr>
-		<tr><td>八</td><td>bā</td><td>8</td><td><div><img class="strokeOrder" src="img\八-order.gif" alt="八"/></div></td></tr>	
-		<tr><td>九</td><td>shuǐ</td><td>9</td><td><div><img class="strokeOrder" src="img\九-order.gif" alt="九"/></div></td></tr>
-		<tr><td>十</td><td>shí</td><td>10</td><td><div><img class="strokeOrder" src="img\十-order.gif" alt="十"/></div></td></tr>
+		<tr><td>一</td><td>yī</td><td>1</td><td><div><img class="strokeOrder" src="img/一-order.gif" alt="一"/></div></td></tr>
+		<tr><td>二</td><td>èr</td><td>2</td><td><div><img class="strokeOrder" src="img/二-order.gif" alt="二"/></div></td></tr>
+		<tr><td>三</td><td>sān</td><td>3</td><td><div><img class="strokeOrder" src="img/三-order.gif" alt="三"/></div></td></tr>
+		<tr><td>四</td><td>sì</td><td>4</td><td><div><img class="strokeOrder" src="img/四-order.gif" alt="四"/></div></td></tr>
+		<tr><td>五</td><td>wǔ</td><td>5</td><td><div><img class="strokeOrder" src="img/五-order.gif" alt="五"/></div></td></tr>
+		<tr><td>六</td><td>liù</td><td>6</td><td><div><img class="strokeOrder" src="img/六-order.gif" alt="六"/></div></td></tr>
+		<tr><td>七</td><td>qī</td><td>7</td><td><div><img class="strokeOrder" src="img/七-order.gif" alt="七"/></div></td></tr>
+		<tr><td>八</td><td>bā</td><td>8</td><td><div><img class="strokeOrder" src="img/八-order.gif" alt="八"/></div></td></tr>	
+		<tr><td>九</td><td>shuǐ</td><td>9</td><td><div><img class="strokeOrder" src="img/九-order.gif" alt="九"/></div></td></tr>
+		<tr><td>十</td><td>shí</td><td>10</td><td><div><img class="strokeOrder" src="img/十-order.gif" alt="十"/></div></td></tr>
 	</table>
 </div>
 <div class="dash"></div>
