@@ -2,7 +2,8 @@
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
 sec_session_start();
-if(login_check($mysqli) == true) {
+//if(login_check($mysqli) == true) {
+if(true == true) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +88,7 @@ if(login_check($mysqli) == true) {
 			<tr><td>下午</td><td>xiàwǔ</td><td>noun</td><td>afternoon</td></tr>
 			<tr><td>商店</td><td>shāngdiàn</td><td>noun</td><td>shop, store</td></tr>
 			<tr><td>买</td><td>mǎi</td><td>verb</td><td>to buy,<br/>to purchase</td></tr>
-			<tr><td>个</td><td>gè</td><td>measure</br.></td><td><i>a general measure word</i></td></tr>
+			<tr><td>个</td><td>gè</td><td>measure<br/></td><td><i>a general measure word</i></td></tr>
 			<tr><td>杯子</td><td>bēizi</td><td>noun</td><td>cup, glass</td></tr>
 		</table>
 		</div>
@@ -267,13 +268,14 @@ if(login_check($mysqli) == true) {
 		<div class="col-xs-6 col-sm-3 col"><button type="button" class="btn btn-huge btn-default" onclick="play('biao3yan3');">表演<br/>biǎo yǎn<br/>perform</button></div>
 		<div class="col-xs-6 col-sm-3 col"><button type="button" class="btn btn-huge btn-default" onclick="play('biao3xian4');">表现 (表現)<br/>biǎo xiàn<br/>behave</button></div>
 	</div>
+</div>
 <div class="dash"></div>
 <div class="container-fluid">
 	<h4 class="sublesson">2. Single-Component Characters</h4>
 	<div class="table">
 	<table class="table table-bordered table-condensed table-responsive table-centered">
-		<tr><td>少</td><td>shǎo</td><td>few<br/>little</td><td><div><img class="strokeOrder" src="img\少-order.gif" alt="少"/></div></td></tr>
-		<tr><td>个</td><td>gè</td><td><i>measure<br/>word</i></td><td><div><img class="strokeOrder" src="img\个-order.gif" alt="个"/></div></td></tr>
+		<tr><td>少</td><td>shǎo</td><td>few<br/>little</td><td><div><img class="strokeOrder" src="img/少-order.gif" alt="少"/></div></td></tr>
+		<tr><td>个</td><td>gè</td><td><i>measure<br/>word</i></td><td><div><img class="strokeOrder" src="img/个-order.gif" alt="个"/></div></td></tr>
 	</table>
 	</div>
 	<h4 class="sublesson">2. Structure of Chinese Characters (3): top-bottom and top-middle-bottom</h4>
