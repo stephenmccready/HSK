@@ -372,10 +372,10 @@ if(login_check($mysqli) == true) {
 	<div class="clearfix">&nbsp;</div>
 	<h4 class="sublesson">2. Single-Component Characters</h4>
 	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>七</td><td>qī</td><td>7</td><td><div><img class="strokeOrder" src="img\七-order.gif" alt="七"/></div></td></tr>
-		<tr><td>儿</td><td>er</td><td>child</td><td><div><img class="strokeOrder" src="img\儿-order.gif" alt="儿"/></div></td></tr>
-		<tr><td>几</td><td>jǐ</td><td>a few</td><td><div><img class="strokeOrder" src="img\几-order.gif" alt="几"/></div></td></tr>
-		<tr><td>九</td><td>jiǔ</td><td>9</td><td><div><img class="strokeOrder" src="img\九-order.gif" alt="九"/></div></td></tr>
+		<tr><td>七</td><td>qī</td><td>7</td><td><div><img class="strokeOrder" src="img/七-order.gif" alt="七"/></div></td></tr>
+		<tr><td>儿</td><td>er</td><td>child</td><td><div><img class="strokeOrder" src="img/儿-order.gif" alt="儿"/></div></td></tr>
+		<tr><td>几</td><td>jǐ</td><td>a few</td><td><div><img class="strokeOrder" src="img/几-order.gif" alt="几"/></div></td></tr>
+		<tr><td>九</td><td>jiǔ</td><td>9</td><td><div><img class="strokeOrder" src="img/九-order.gif" alt="九"/></div></td></tr>
 	</table>
 	<div class="clearfix">&nbsp;</div>
 	<h4 class="sublesson">3. Stroke Order (2): top preceding bottom and left preceding right</h4>
@@ -389,14 +389,14 @@ if(login_check($mysqli) == true) {
 			<tr>
 				<td><br />Top preceding<br/>bottom</td>
 				<td><br/>二 èr &nbsp; 2<br/><br/>三 sān &nbsp; 3</td>
-				<td><img class="strokeOrder" src="img\二-order.gif" alt="二 Stroke Order"/>
-					<br/><img class="strokeOrder" src="img\三-order.gif" alt="三 Stroke Order"/></td>
+				<td><img class="strokeOrder" src="img/二-order.gif" alt="二 Stroke Order"/>
+					<br/><img class="strokeOrder" src="img/三-order.gif" alt="三 Stroke Order"/></td>
 			</tr>
 			<tr>
 				<td><br />Left preceding<br/>right</td>
 				<td><br/>几 jǐ &nbsp; how many<br/><br />八 bā &nbsp; 8</td>
-				<td><img class="strokeOrder" src="img\几-order.gif" alt="几 Stroke Order"/>
-					<br/><img class="strokeOrder" src="img\八-order.gif" alt="八 Stroke Order"/></td>
+				<td><img class="strokeOrder" src="img/几-order.gif" alt="几 Stroke Order"/>
+					<br/><img class="strokeOrder" src="img/八-order.gif" alt="八 Stroke Order"/></td>
 			</tr>
 		</table>
 	</div>
