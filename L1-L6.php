@@ -289,9 +289,9 @@ if(login_check($mysqli) == true) {
 	</div>
 	<h4 class="sublesson">2. Single-Component Characters</h4>
 	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>东</td><td>dōng</td><td>east</td><td><div><img class="strokeOrder" src="img\东-order.gif" alt="东"/></div></td></tr>
-		<tr><td>我</td><td>wǒ</td><td>I, me</td><td><div><img class="strokeOrder" src="img\我-order.gif" alt="我"/></div></td></tr>
-		<tr><td>西</td><td>xī</td><td>west</td><td><div><img class="strokeOrder" src="img\西-order.gif" alt="西"/></div></td></tr>
+		<tr><td>东</td><td>dōng</td><td>east</td><td><div><img class="strokeOrder" src="img/东-order.gif" alt="东"/></div></td></tr>
+		<tr><td>我</td><td>wǒ</td><td>I, me</td><td><div><img class="strokeOrder" src="img/我-order.gif" alt="我"/></div></td></tr>
+		<tr><td>西</td><td>xī</td><td>west</td><td><div><img class="strokeOrder" src="img/西-order.gif" alt="西"/></div></td></tr>
 	</table>
 	<h4 class="sublesson">3. Structure of Chinese Characters (1): single-component and compound</h4>
 	<p>Basically Chinese characters fall into two types of structures: the single-component structure and the compound structure. The former has only one component, for example "人" (rén, person); while the latter is made up of two or more components, for example, "你" (nǐ, you)</p>
