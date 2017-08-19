@@ -2,8 +2,7 @@
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
 sec_session_start();
-//if(login_check($mysqli) == true) {
-if(true == true) {
+if(login_check($mysqli) == true) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
