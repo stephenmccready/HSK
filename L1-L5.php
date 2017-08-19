@@ -26,8 +26,8 @@ if(login_check($mysqli) == true) {
 	<div class="lessonHeaderRight"><h2>Tā nǚ'ér jīnnián èrshí suì<br/>她女儿今年二十岁<br/><b>Her daughter is 20 years old this year</b></h2></div>
 </div>
 <div class="container-fluid">
-	<h4><audio controls="" preload="metadata" id="05-1"><button class="cd" onclick="play('05-1');">&#128191; 05-1</button>
-	<source src="../mandarin/audio/05-1.mp3" type="audio/mpeg">No audio</audio>
+	<h4><button class="cd" onclick="play('05-1');">&#128191; 05-1</button>
+	<audio controls="" preload="metadata" id="05-1"><source src="../mandarin/audio/05-1.mp3" type="audio/mpeg">No audio</audio>
 	</h4>
 	<h4 class="textSection">漯文一。Kè wén yī. Text 1.</h4>
 	<h4 class="textSection">在学校。Zài xuéxiào. In the school.</h4>
@@ -52,8 +52,8 @@ if(login_check($mysqli) == true) {
 		</table>
 		</div>
 	</div>
-	<h4><audio controls="" preload="metadata" id="05-2"><button class="cd" onclick="play('05-2');">&#128191; 05-2</button>
-	<source src="../mandarin/audio/05-2.mp3" type="audio/mpeg">No audio</audio>
+	<h4><button class="cd" onclick="play('05-2');">&#128191; 05-2</button>
+	<audio controls="" preload="metadata" id="05-2"><source src="../mandarin/audio/05-2.mp3" type="audio/mpeg">No audio</audio>
 	</h4>
 	<h4 class="textSection">漯文二。Kè wén èr. Text 2.</h4>
 	<h4 class="textSection">在 办公室。Zài bàngōngshì. In the office.</h4>
@@ -349,30 +349,26 @@ if(login_check($mysqli) == true) {
 		</table>
 	</div>
 	<h4 class="sublesson">2. Single-Component Characters</h4>
-	<p><table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
-		<tr><td>水</td><td>shuǐ</td><td>water</td><td><div><img class="strokeOrder" src="img\水-order.gif" alt="水"/></div></td></tr>
-		<tr><td>女</td><td>nǚ</td><td>woman</td><td><div><img class="strokeOrder" src="img\女-order.gif" alt="女"/></div></td></tr>
-		<tr><td>了</td><td>le</td><td><i>indicates<br/>change</i></td><td><div><img class="strokeOrder" src="img\了-order.gif" alt="了"/></div></td></tr>
-		<tr><td>大</td><td>dà</td><td>big</td><td><div><img class="strokeOrder" src="img\大-order.gif" alt="大"/></div></td></tr></table></p>
+	<table class="table table-bordered table-condensed table-responsive table-centered table-SCC">
+		<tr><td>水</td><td>shuǐ</td><td>water</td><td><div><img class="strokeOrder" src="img/水-order.gif" alt="水"/></div></td></tr>
+		<tr><td>女</td><td>nǚ</td><td>woman</td><td><div><img class="strokeOrder" src="img/女-order.gif" alt="女"/></div></td></tr>
+		<tr><td>了</td><td>le</td><td><i>indicates<br/>change</i></td><td><div><img class="strokeOrder" src="img/了-order.gif" alt="了"/></div></td></tr>
+		<tr><td>大</td><td>dà</td><td>big</td><td><div><img class="strokeOrder" src="img/大-order.gif" alt="大"/></div></td></tr></table>
 	<h4 class="sublesson">3. Stroke Order (3): outside preceding inside and middle preceding sides</h4>
 	<div class="table-responsive">
 		<table class="table table-bordered table-condensed table-responsive table-centered">
-			<tr class="active">
-				<th>Rule</th>
-				<th>例字<br/>lì zì<br/>Example<br/>Characters</th>
-				<th>Stroke Order</th>
-			</tr>
+			<tr class="active"><th>Rule</th><th>例字<br/>lì zì<br/>Example<br/>Characters</th><th>Stroke Order</th></tr>
 			<tr>
 				<td><br />Outside preceding<br/>inside</td>
 				<td><br/>四 &nbsp; si &nbsp; four<br/><br/>国 &nbsp; guó &nbsp; country</td>
-				<td><img class="strokeOrder" src="img\四-order.gif" alt="四 Stroke Order"/>
-					<br/><img class="strokeOrder" src="img\国-order.gif" alt="国 Stroke Order"/></td>
+				<td><img class="strokeOrder" src="img/四-order.gif" alt="四 Stroke Order"/>
+					<br/><img class="strokeOrder" src="img/国-order.gif" alt="国 Stroke Order"/></td>
 			</tr>
 			<tr>
 				<td><br />Left preceding<br/>right</td>
 				<td><br/>小 &nbsp; xiǎo &nbsp; small<br/><br/>水 &nbsp; shuǐ &nbsp; water</td>
-				<td><img class="strokeOrder" src="img\小-order.gif" alt="小 Stroke Order"/>
-					<br/><img class="strokeOrder" src="img\水-order.gif" alt="水 Stroke Order"/></td>
+				<td><img class="strokeOrder" src="img/小-order.gif" alt="小 Stroke Order"/>
+					<br/><img class="strokeOrder" src="img/水-order.gif" alt="水 Stroke Order"/></td>
 			</tr>
 		</table>
 	</div>
