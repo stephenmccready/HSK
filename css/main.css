@@ -65,4 +65,15 @@ table.table-SCC tr > td:first-child {font-size: 200%;}
 .pyn {display: none; color:purple;}
 .eng {display: none; color:green;}
 .xhan {display: none; color: maroon;}
+.pynD {color:purple;}
+.engD {color:green;}
+.xhanD {color: maroon;}
 .container-fluid li {padding-bottom: 1.25em;}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
