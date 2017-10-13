@@ -31,9 +31,9 @@ if(login_check($mysqli) == true) {
 	</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Nǐ hǎo !<br/>
-		A: 你㚥 !<br/>
+		A: 你好 !<br/>
 		<span class="masked">B: </span>Nǐ hǎo !<br/>
-		B: 你㚥 !<br/>
+		B: 你好 !<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
@@ -46,7 +46,7 @@ if(login_check($mysqli) == true) {
 		<table class="table table-condensed table-responsive">
 			<tr><th colspan="4"><i>New Words</i></th></tr>
 			<tr><td>你</td><td>nǐ</td><td>pron.</td><td>(<i>singular</i>) you</td></tr>
-			<tr><td>㚥</td><td>hǎo</td><td>adj.</td><td>good, fine</td></tr>
+			<tr><td>好</td><td>hǎo</td><td>adj.</td><td>good, fine</td></tr>
 		</table>
 		</div>
 	</div>
@@ -55,9 +55,9 @@ if(login_check($mysqli) == true) {
 	</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Nǐn hǎo !<br/>
-		A: 您 㚥 !<br/>
+		A: 您 好 !<br/>
 		<span class="masked">B: </span>Nǐmen hǎo !<br/>
-		B: 你们 㚥 !<br/>
+		B: 你们 好 !<br/>
 	</div>
 	<div class="col-xs-12 col-md-4 col">
 		<div class="col-xs-12 col">
