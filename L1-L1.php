@@ -23,7 +23,7 @@ if(login_check($mysqli) == true) {
 <?php include 'navbar.php'; ?>
 <div class="container-fluid">
 	<div class="jumbotron lessonHeaderLeft">Dì yì kè<br/>第一课<br/>Lesson 1</div>
-	<div class="lessonHeaderRight"><h2>Nǐ hǎo<br/>你㚥<br/><b>Hello</b></h2></div>
+	<div class="lessonHeaderRight"><h2>Nǐ hǎo<br/>你好<br/><b>Hello</b></h2></div>
 </div>
 <div class="container-fluid">
 	<h4 class="sublesson">漯文 Text 1. <button onclick="play('01-1');">&#128191; 01-1</button>
