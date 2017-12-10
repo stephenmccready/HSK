@@ -1,4 +1,4 @@
-body {font-size: 2em !important;padding-top: 75px;}
+body {font-size: 2em !important;padding-top: 75px; font-family:PingFang SC;}
 .navbar {margin-bottom: 5px !important;}
 .navbar-collapse {padding-left: 0 !important; padding-right: 0 !important;}
 .navbar-nav li {font-size: 1.25em !important; vertical-align: middle !important;}
@@ -8,22 +8,24 @@ div.row {margin-bottom: 2.5em !important;}
 a.profile {color: #000099 !important;}
 a.logout {color: #990000 !important;}
 audio.hidden {display: none;}
-.lessonHeaderLeft {width: 25%; float: left; text-align: right; padding-right: .5em;}
-.lessonHeaderRight {width: 75%; float: left; text-align: left; padding-left: .5em;}
+.lessonHeaderLeft {width: 37% !important;float: left; text-align: right; padding: .5em !important; .25em !important; .5em !important; .25em !important;}
+.lessonHeaderRight {width: 63% !important;float: left; text-align: left; padding: .25em !important;}
 .box {margin: 0.75% 0.75% 0.25em 0.75%; padding: 0.25%; text-align: center; display: inline-block; font-size: 1.5em;}
 .btn-huge {font-size: 100% !important; margin: .25em; min-width: 3em !important;}
 h1,h2,h3,h4,h5 {display: block;}
-h4.sublesson {width: 100%; border-bottom: 1px solid silver; clear: both; padding-top: 1.75em; padding-bottom: 0.5em;}
-h4.sublessonHeader {width: 100%; border-top: 1px solid silver; clear: both; margin-top: 1.75em; margin-bottom: 0.5em; padding-top: 0.25em; padding-bottom: 0.5em; background-color: #F0F8FF; padding-left:0.25em; clear: both; font-size: 115%;}
+h2 {margin: 0 !important;}
+h4.sublesson {width: 100%; border-bottom: 1px solid silver; clear: both; padding-top: 0.25em; padding-bottom: 0.25em;}
+h4.sublessonHeader {width: 100%; border-top: 1px solid silver; clear: both; margin-top: 0.25em; margin-bottom: 0.25em; padding-top: 0.25em; padding-bottom: 0.25em; background-color: #F0F8FF; padding-left:0.25em; clear: both; font-size: 115%;}
 img {width: 100%; display:block;}
 div.right {text-align: right;}
 div.tones {text-align: center; margin: auto;}
-div.dash {border-top: 2px dashed #000; margin-top: 2em; width: 99%; clear: both; margin-left:auto; margin-right:auto;}
+div.dash {border-top: 2px dashed #000; margin-top: 0.5em; width: 99%; clear: both; margin-left:auto; margin-right:auto;}
 div.dashlite {border-bottom: 1px dashed silver; padding-top: 1em; margin-bottom: 1em; width: 99%; clear: both; margin-left:auto; margin-right:auto;}
 table th{background-color: #DCDCDC; text-align: center;}
 .warmupform {float: left; clear: both; margin-top: 0.25em; margin-bottom: 0.25em;}
 .warmup {padding: .5em; margin-top: 1em;}
 .warmupans {clear: both; margin-top: 0.5em; margin-bottom: 0.5em;}
+.gameDiv {float: left; padding-left: 5%;}
 #tone1, #tone2, #tone3, #tone4 {width: 240px !important; height: 120px !important; border:1px solid #000;}
 .input-group {margin-bottom: 1em !important;}
 .table-centered td {text-align: center;}
@@ -56,11 +58,17 @@ div.lessonMenu {padding: .5%; margin: .5%; border: 1px solid silver; }
 span.txtNum {font-size: 150%;}
 h4.textSection {padding: .5em; background-color: #d3f8d3; font-size: 105%; clear: both;}
 .col {padding-left:2px; padding-right:2px;}
-#custom-nav a{display:inline-block; border: 1px solid silver; width: 40px; font-size: 105%; text-align: center;}
+#custom-nav a{display:inline-block; border: 1px solid #4cae4c; text-align: center; margin-bottom: 3px; text-decoration: none;background-color: #5cb85c; color: #fff;border-radius: 3px;}
+#custom-nav a:hover{background-color: #449d44;}
+/*
+.lessonMenu a{display:inline-block; border: 1px solid #4cae4c; width: 40px; text-align: center; margin-bottom: 3px; text-decoration: none;background-color: #5cb85c; color: #fff;border-radius: 3px;}
+.lessonMenu a:hover{background-color: #449d44;}
+*/
 a.custom-nav2 {width: 50px !important;}
 a.custom-nav3 {width: 80px !important;}
 a.custom-nav4 {width: 100px !important;}
 a.custom-nav5 {width: 120px !important;}
+a.custom-nav6 {width: 175px !important;}
 table.table-SCC tr > td:first-child {font-size: 200%;}
 .pyn {display: none; color:purple;}
 .eng {display: none; color:green;}
@@ -68,7 +76,7 @@ table.table-SCC tr > td:first-child {font-size: 200%;}
 .pynD {color:purple;}
 .engD {color:green;}
 .xhanD {color: maroon;}
-.container-fluid li {padding-bottom: 1.25em;}
+.container-fluid li {padding-bottom: 1em;}
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,
@@ -77,3 +85,4 @@ table.table-SCC tr > td:first-child {font-size: 200%;}
 .table-borderless > thead > tr > th {
     border: none;
 }
+p.indent {padding: 1em; margin: 1em; border: 1px dashed silver;}
