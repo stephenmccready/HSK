@@ -3,20 +3,20 @@ HSK (Hànyǔ Shuǐpíng Kǎoshì 汉语水平 考试) study aid for learning Chi
 
 <i>Under Development</i>
 
-View a sample lesson <a href="https://www.stephenmccready.asia/mi/L2-L1.php" target="_blank">here</a>.
+View a sample lesson <a href="https://www.stephenmccready.asia/mi/L3-L1.php" target="_blank">here</a>.
 
 Lessons contain: dialogues, grammar rules, role-play exercises, pronounciation guides, Hanzi character strokes, stroke order and radicals
 <p>
-As of August 2017:
+As of December 2017:
 <ul>
-<li>HSK level 1 course book is 90% complete</li>
+<li>HSK level 1 course book is 100% complete</li>
 <li>HSK level 1 workbook is 10% complete</li>
-<li>HSK level 2 course book is 30% complete</li>
+<li>HSK level 2 course book is 70% complete</li>
+<li>HSK level 3 course book is 15% complete</li>
 </ul>
 </p>
 Uses Bootstrap and jQuery.
 
-Additional folders required:<br/>
-img : contains animated GIFs demonstrating stroke order and largeer images of single component characters.<br/>
+Additional folders and files required:<br/>
+img : contains animated GIFs demonstrating stroke order and larger images of single component characters.<br/>
 audio : contains pronounciations and dialogues<br/>
-
