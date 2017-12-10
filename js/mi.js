@@ -90,20 +90,16 @@ function next() {
 	window.location = newurl;
 	var url=currLesson=nextLesson=newurl=null;
 }
-$('#toggleEnglish').click(function (e) {
-    e.preventDefault();
-    alert("toggleEng");
-	$('.english').toggle();
-	return false;
-});
 function myToggle(id) {
 	var x=document.getElementById('py'+id);
 	if(id.substr(0,1)=="g"){
 		x=document.getElementById('en'+id);
+	} else if (id.substr(0,1)=="z") {
+		x=document.getElementById('han'+id);
 	}
-    if (x.style.display === 'none' || x.style.display === '') {
+    if (x.style.display != 'block') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
     }
-} 
+}
