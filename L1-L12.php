@@ -26,15 +26,14 @@ if(login_check($mysqli) == true) {
 	<div class="lessonHeaderRight"><h2>Míngtiān tiānqì zènmeyàng<br/>明天 天气 怎么样<br/><b>What will the weather be like tomorrow?</b></h2></div>
 </div>
 <div class="container-fluid">
-	<h4 class="sublesson">1. <button class="cd" onclick="play('12-1');">&#128191; 12-1</button>
+	<h4 class="textSection">Kè wén yī. Zài lùshàng.<br/>漯文一。在 路上。<br/>Text 1. On the road.<br/>
+	<button class="cd" onclick="play('12-1');">&#128191; 12-1</button>
 	<audio controls="" preload="metadata" id="12-1"><source src="../mandarin/audio/12-1.mp3" type="audio/mpeg">No audio</audio></h4>
-	<h4 class="textSection">Kè wén yī.<br>Zài lùshàng.<br/>漯文一。在 路上。<br/>Text 1. On the road.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Zuótiān Běijīng de tiānqì zènmeyàng?<br/>
 		A: 昨天 北京 天气 怎么样?<br/>
 		<span class="masked">B: </span>Tài rè le.<br/>
 		B: 太 热 了。<br/>
-		<br/>
 		<span class="masked">A: </span>Míngtiān ne?  Míngtiān tiānqì zènmeyàng?<br/>
 		A: 明天 呢？ 明天 天气 怎么样？<br/>
 		<span class="masked">B: </span>Míngtiān tiānqì hěn hǎo, bù lěng bú rè<br/>
@@ -43,7 +42,7 @@ if(login_check($mysqli) == true) {
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: How was the weather in Běijīng yesterday?<br/>
-		B: It was too hot.<br/><br/>
+		B: It was too hot.<br/>
 		A: What about tomorrow? What will the weather be like tomorrow?<br/>
 		B: It will be fine, neither cold nor hot.<br/>
 	</div>
@@ -59,27 +58,25 @@ if(login_check($mysqli) == true) {
 		</table>
 		</div>
 	</div>
-	<h4 class="sublesson">2. <button class="cd" onclick="play('12-2');">&#128191; 12-2</button>
+	<h4 class="textSection">Kè wén èr. Zài Jiànshēnfáng.<br/>漯文二。在健身房。<br/>Text 2. In the Gym.<br/>
+	<button class="cd" onclick="play('12-2');">&#128191; 12-2</button>
 	<audio controls="" preload="metadata" id="12-2"><source src="../mandarin/audio/12-2.mp3" type="audio/mpeg">No audio</audio></h4>
-	<h4 class="textSection">漯文二。Kè wén èr。 Zài Jiànshēnfáng. 在 健身房。</h4>
-	<h4 class="textSection">Text 2. In the Gym.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Jīntiān huì xià yǔ ma?<br/>
 		A: 今天 会 下 雨 吗？<br/>
 		<span class="masked">A: </span>Jīntiān bú huì xià yǔ <br/>
 		B: 今天 不 会 下 雨。<br/>
-		<br/>
 		<span class="masked">A: </span>Wáng xiǎojiě jīntiān huì lái ma?<br/>
 		A: 王 小姐 今天 会 来 吗？<br/>
 		<span class="masked">A: </span>Bú huì lái, tiānqì tài lěng le<br/>
-		B: 不 会 来, 天气 太 冷 了<br/><br/>
+		B: 不 会 来, 天气 太 冷 了<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: Will it rain today?<br/>
-		B: No, it won't rain<br/><br/>
+		B: No, it won't rain<br/>
 		A: Will Miss Wang come today?<br/>
-		B: No, she won't. It's too cold.<br/><br/>
+		B: No, she won't. It's too cold.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
@@ -93,16 +90,14 @@ if(login_check($mysqli) == true) {
 		</table>
 		</div>
 	</div>
-	<h4 class="sublesson">3. <button class="cd" onclick="play('12-3');">&#128191; 12-3</button>
-	<audio controls="" preload="metadata" id="12-3"><source src="../mandarin/audio/12-3.mp3" type="audio/mpeg">No audio</audio></h4>
-	<h4 class="textSection">漯文三。Kè wén sān。 Zài Bìngfáng. 在 病房。</h4>
-	<h4 class="textSection">Text 3. In the sickroom.</h4>	
+	<h4 class="textSection">Kè wén sān. Zài Bìngfáng.<br/>漯文三。在病房。<br/>Text 3. In the sickroom.<br/>
+	<button class="cd" onclick="play('12-3');">&#128191; 12-3</button>
+	<audio controls="" preload="metadata" id="12-3"><source src="../mandarin/audio/12-3.mp3" type="audio/mpeg">No audio</audio></h4>	
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Nǐ shēntǐ zènmeyàng?<br/>
 		A: 你 身体 怎么样？<br/>
 		<span class="masked">B: </span>Wǒ shēntǐ bú tài hǎo. Tiānqì tài rè le，bú ài chī fàn.<br/>
 		B: 我 身体 不 太 好. 天气 太 热 了, 不 爱 吃 饭。 <br/>
-		<br/>
 		<span class="masked">A: </span>Nǐ duō chī xiē shuǐguǒ, duō hē shuǐ.<br/>
 		A: 你 多 吃 些 水果， 多 喝 水。<br/>
 		<span class="masked">B: </span>Xièxie nǐ, yīshēng.<br/>
@@ -111,7 +106,7 @@ if(login_check($mysqli) == true) {
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: How are you?<br/>
-		B: Not very well. It's too hot, I have no appetite.<br/><br/>
+		B: Not very well. It's too hot, I have no appetite.<br/>
 		A: Eat more fruit and drink more water.<br/>
 		B: Thank you, doctor.<br/>
 	</div>
@@ -146,7 +141,7 @@ if(login_check($mysqli) == true) {
 	<table class="table table-condensed table-responsive table-centered">
 		<tr><th rowspan="2">Subject</th><th colspan="2">Predicate</th></tr>
 		<tr><th>Subject</th><th>Predicate</th></tr>
-		<tr><td>我<br/>Wǒ<br/>My</td><td>身体<br/>shēntǐ<br/>health</td><td>下太好。<br/>xià tài hǎo<br/>it's too good</td></tr>
+		<tr><td>我<br/>Wǒ<br/>My</td><td>身体<br/>shēntǐ<br/>health</td><td>不太好。<br/>bú tài hǎo<br/>not too good</td></tr>
 		<tr><td>明天<br/>Míngtiān<br/>Tomorrow</td><td>天气<br/>tiānqì<br/>the weather</td><td>很好。<br/>hěn hǎo<br/>very good</td></tr>
 		<tr><td>你<br/>Nǐ<br/>Your</td><td>身体<br/>shēntǐ<br/>health</td><td>怎么样？<br/>zěnme yàng?<br/>how is it?</td></tr>
 	</table><br/>
@@ -243,12 +238,12 @@ if(login_check($mysqli) == true) {
 			<tr>
 				<td><br/>女</td>
 				<td><br/>The radical "女" is usually related to women.</td>
-				<td> 姐 &nbsp; jiě &nbsp; elder sister<br/><br/> 妈 &nbsp; mā &nbsp; mother</td>
+				<td> 姐 &nbsp; jiě &nbsp; elder sister<br/> 妈 &nbsp; mā &nbsp; mother</td>
 			</tr>
 			<tr>
 				<td><br/>饣</td>
 				<td><br/>The radical "饣" is usually related to food.</td>
-				<td> 饭 &nbsp; fàn &nbsp; meal<br/><br/> 饮 &nbsp; yǐn &nbsp; to drink</td>
+				<td> 饭 &nbsp; fàn &nbsp; meal<br/> 饮 &nbsp; yǐn &nbsp; to drink</td>
 			</tr>
 		</table>
 	</div>
