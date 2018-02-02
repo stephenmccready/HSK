@@ -25,11 +25,7 @@ if(login_check($mysqli) == true) {
 	<div class="jumbotron lessonHeaderLeft">Dì shísì kè.<br/>第 十四 课。<br/>Lesson 14.</div>
 	<div class="lessonHeaderRight"><h2>Nǐ kànguò nàgè diànyǐng ma?<br/>你 看过 那个 电影 吗？<br/><b>Have you seen that movie?</b></h2></div>
 </div>
-<div id="custom-nav" class="clearfix"><p><a href="#2">2</a>&nbsp;<a href="#3">3</a>&nbsp;<a href="#4">4</a>&nbsp;
-<a class="custom-nav3" href="#n1">Note 1</a>&nbsp;<a class="custom-nav3" href="#n2">Note 2</a>&nbsp;<a class="custom-nav3" href="#n3">Note 3</a>&nbsp;
-<a class="custom-nav3" href="#ex">Excer</a>&nbsp;<a class="custom-nav4" href="#pr">Pronunce</a>&nbsp;<a class="custom-nav3" href="#ch">Chars</a></p></div>
-
-<div id="custom-nav" class="clearfix"><p>
+<div id="custom-nav" class="clearfix">
 	<a class="btn btn-success btn-huge" href="#2">2</a>&nbsp;
 	<a class="btn btn-success btn-huge" href="#3">3</a>&nbsp;
 	<a class="btn btn-success btn-huge" href="#4">4</a>&nbsp;
@@ -41,8 +37,8 @@ if(login_check($mysqli) == true) {
 	<a class="btn btn-success btn-huge" href="#ex3">Ex 3</a>&nbsp;
 	<a class="btn btn-success btn-huge" href="#ex4">Ex 4</a>&nbsp;
 	<a class="btn btn-success btn-huge" href="#pr">Speech</a>&nbsp;
-	<a class="btn btn-success btn-huge" href="#ch">Chars</a>&nbsp;
-
+	<a class="btn btn-success btn-huge" href="#ch">Chars</a>
+</div>
 <div class="container-fluid">
 	<h4 class="sublesson">1. <button class="cd" onclick="play('02-14-1');">&#128191; 14-1</button>
 	<audio controls="" preload="metadata" id="02-14-1"><source src="../mandarin/audio/02-14-1.mp3" type="audio/mpeg">No audio</audio></h4>
