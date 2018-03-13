@@ -29,25 +29,25 @@ if(login_check($mysqli) == true) {
 	</div>
 </div>
 <div class="container-fluid">
-	<h4 class="sublesson"><button class="cd" onclick="play('02-01-1');">&#128191; 1-1</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-01-1"><source src="../mandarin/audio/02-01-1.mp3" type="audio/mpeg" />No audio</audio></h4>
 	<h4 class="textSection">Kè wén yī. Zài xuéxiào.<br/>漯文一。在 学校。<br/>Text 1. In the school.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<b>A</b>: Wǒ yào qù Běijīng lǚyóu，nǐ juédé shénme shíhòu qù zuì hǎo？<br/>
-		我 要 去 北京 旅游，你 觉得 什么 时候 去 最 好？<br/><br/>
+		<span class="masked">A: </span>我 要 去 北京 旅游，你 觉得 什么 时候 去 最 好？<br/>
 		<b>B</b>: Jiǔ yuè qù Běijīng lǚyóu zuì hǎo.<br/>
-		九 月 去 北京 旅游 最 好。<br/><br/>
+		<span class="masked">B: </span>九 月 去 北京 旅游 最 好。<br/>
 		<b>A</b>: Wèi shénme？<br/>
-		为 什么？<br/><br/>
+		<span class="masked">A: </span>为 什么？<br/>
 		<b>B</b>: Jiǔ yuè de Běijīng tiānqì bù lěng yě bù rè.<br/>
-		九 月 的 北京 天气 不 冷 也 不 热。<br/><br/>
+		<span class="masked">B: </span>九 月 的 北京 天气 不 冷 也 不 热。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		<b>A</b>: I want to travel to Beijing, when do you think is the best time?<br/>
 		<b>B</b>: September is the best time to visit Beijing.<br/>
 		<b>A</b>: Why?<br/>
-		<b>B</b>: Because it is neither cold nor hot there in September.<br/><br/>
+		<b>B</b>: Because it is neither cold nor hot there in September.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<table class="table table-condensed table-responsive">
@@ -60,25 +60,25 @@ if(login_check($mysqli) == true) {
 		</table>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson"><button class="cd" onclick="play('02-01-2');">&#128191; 1-2</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-01-2"><source src="../mandarin/audio/02-01-2.mp3" type="audio/mpeg" />No audio</audio></h4>
 	<h4 class="textSection">Kè wén èr. Kán zhàopiān.<br/>漯文二。看 照片。<br/>Text 2. Looking at a picture.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<b>A</b>: Nǐ xǐhuan shénme yùndòng?<br/>
-		你 喜欢 什么 运动？<br/><br/>
+		<span class="masked">A: </span>你 喜欢 什么 运动？<br/>
 		<b>B</b>: Wǒ zuì xǐhuan tī zúquí.<br/>
-		我 最 喜欢 踢 足球。<br/><br/>
+		<span class="masked">B: </span>我 最 喜欢 踢 足球。<br/>
 		<b>A</b>: Xiàwǔ wǒmen yìqǐ qù tī zúquí ba.<br/>
-		下午 我们 一起 去 踢 足球 吧。<br/><br/>
+		<span class="masked">A: </span>下午 我们 一起 去 踢 足球 吧。<br/>
 		<b>B</b>: Hǎo a!<br/>
-		好 啊<br/><br/>
+		<span class="masked">B: </span>好 啊<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		<b>A</b>: What sport do you like?<br/>
 		<b>B</b>: I like playing football.<br/>
 		<b>A</b>: Let's go play football this afternoon.<br/>
-		<b>B</b>: Great!<br/><br/>
+		<b>B</b>: Great!<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<table class="table table-condensed table-responsive">
@@ -89,25 +89,25 @@ if(login_check($mysqli) == true) {
 		</table>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson"><button class="cd" onclick="play('02-01-3');">&#128191; 1-3</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-01-3"><source src="../mandarin/audio/02-01-3.mp3" type="audio/mpeg" />No audio</audio></h4>
 	<h4 class="textSection">Kè wén sān. Zài jiālǐ.<br/>漯文三。在 家里。<br/>Text 3. At home.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<b>A</b>: Wǒmen yào bu yào mǎi jǐ ge xīn de yǐzi?<br/>
-		我们 要 不 要 买 几 个 新 的 椅子？<br/><br/>
+		<span class="masked">A: </span>我们 要 不 要 买 几 个 新 的 椅子？<br/>
 		<b>B</b>: Hǎo a. Shénme shíhou qù mǎi?<br/>
-		好 啊. 什么 时候 去 买？<br/><br/>
+		<span class="masked">B: </span>好 啊. 什么 时候 去 买？<br/>
 		<b>A</b>: Míngtiān xiàwǔ zěnmeyàng? Nǐ míngtiān jǐ diǎn néng huílái?<br/>
-		明天 下午 怎么样？ 你 明天 几 点 能 回来？<br/><br/>
+		<span class="masked">A: </span>明天 下午 怎么样？ 你 明天 几 点 能 回来？<br/>
 		<b>B</b>: Sān diǎn duō.<br/>
-		三 点 多。<br/><br/>
+		<span class="masked">B: </span>三 点 多。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		<b>A</b>: Don't you think we should buy some new chairs?<br/>
 		<b>B</b>: Yes. When should we go to buy them?<br/>
 		<b>A</b>: What about tomorrow afternoon? When will you be back tomorrow?<br/>
-		<b>B</b>: A little bit later after three o'clock, maybe later.<br/><br/>
+		<b>B</b>: A little bit later after three o'clock, maybe later.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<table class="table table-condensed table-responsive">
@@ -117,22 +117,22 @@ if(login_check($mysqli) == true) {
 		</table>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson"><button class="cd" onclick="play('02-01-4');">&#128191; 1-4</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-01-4"><source src="../mandarin/audio/02-01-4.mp3" type="audio/mpeg" />No audio</audio></h4>
 	<h4 class="textSection">Kè wén sì. Zài jiālǐ.<br/>漯文三。在 家里。<br/>Text 4. At home</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<b>A</b>: Zhuōzi xiàmiàn yǒu ge māo.<br/>
-		桌子 下面 有 个 猫。<br/><br/>
+		<span class="masked">A: </span>桌子 下面 有 个 猫。<br/>
 		<b>B</b>: Nà shì wǒ de māo, tā jiào Huāhua.<br/>
-		那 是 我 的 猫， 它 叫 花花。<br/><br/>
+		<span class="masked">B: </span>那 是 我 的 猫， 它 叫 花花。<br/>
 		<b>A</b>: Tā hěn piàoliang.<br/>
-		它 很 漂亮。<br/><br/>
+		<span class="masked">A: </span>它 很 漂亮。<br/>
 		<b>B</b>: Shì a, wǒ juéde tā de yǎnjīng zuì piàoliang.<br/>
-		是 啊， 我 觉得 它 的 眼睛 最 漂亮。<br/><br/>
+		<span class="masked">B: </span>是 啊， 我 觉得 它 的 眼睛 最 漂亮。<br/>
 		<b>A</b>: Tā duō dà le?<br/>
-		它 多 大 了？<br/><br/>
+		<span class="masked">A: </span>它 多 大 了？<br/>
 		<b>B</b>: Liù ge duō yuè.<br/>
-		六 个 多 月。<br/><br/>
+		<span class="masked">B: </span>六 个 多 月。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
@@ -141,7 +141,7 @@ if(login_check($mysqli) == true) {
 		<b>A</b>: It's beautiful.<br/>
 		<b>B</b>: Yes, I think it has the most beautiful eyes.<br/>
 		<b>A</b>: How old is it?<br/>
-		<b>B</b>: More than six months.<br/><br/>
+		<b>B</b>: More than six months.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<table class="table table-condensed table-responsive">
@@ -211,7 +211,7 @@ if(login_check($mysqli) == true) {
 	</ol>
 	<p>When "<b>几</b>" (<b>jǐ</b>: a few) is used after "十" (shí: ten), it indicates a number greater than 10 but less than 20, for example:
 	<br/>"十<b>几</b>个人" (shí <b>jǐ </b>gèrén: <i>a dozen people or so</i>);
-	<br/><br/>When used before "十" (shí: ten), it indicates a number greater than 20 while less than 100, for example:
+	<br/>When used before "十" (shí: ten), it indicates a number greater than 20 while less than 100, for example:
 	<br/>"<b>几</b>十个人" (<b>jǐ </b>shí gèrén: <i>dozens of people</i>)
 	</p>
 	<br/>
@@ -231,7 +231,7 @@ if(login_check($mysqli) == true) {
 		<tr><td>十<br/>Shí</td><td><b>多</b><br/><b>duō</b></td><td>个<br/>gè</td><td>月<br/>yuè</td></tr>
 		<tr><td colspan="4"><i>More than ten months</i></td></tr>
 		<tr><td>二十<br/>Èrshí</td><td><b>多</b><br/><b>duō</b></td><td>块<br/>kuài<br/>pieces</td><td>钱<br/>qián<br/>money</td></tr>
-		<tr><td colspan="4"><i>More than twenty kuài (yuán)</td></tr>
+		<tr><td colspan="4"><i>More than twenty kuài (yuán)</i></td></tr>
 		<tr><td>八十<br/>Bāshí</td><td><b>多</b><br/><b>duō</b></td><td>个<br/>gè</td><td>人<br/>rén<br/>people</td></tr>
 		<tr><td colspan="4"><i>More than eighty people</i></td></tr>
 	</table>
