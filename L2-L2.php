@@ -28,18 +28,18 @@ if(login_check($mysqli) == true) {
 	</div>
 </div>
 <div class="container-fluid">
-	<h4 class="sublesson">1. <button class="cd" onclick="play('02-02-1');">&#128191; 2-1</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-02-1"><source src="../mandarin/audio/02-02-1.mp3" type="audio/mpeg">No audio</audio></h4>
 	<h4 class="textSection">2.1. Kè wén yī. Zài Yùndòngchǎng.<br/>漯文一。在 运动场<br/>Text 1. On the playground.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Nǐ hěn shǎo shēngbìng, shì bushì xǐhuan yùndòng?<br/>
-		A: 你 很 少 生病， 是 不是 喜欢 运动？<br/><br/>
+		A: 你 很 少 生病， 是 不是 喜欢 运动？<br/>
 		<span class="masked">B: </span>Shì a, wǒ měitiān zǎoshang dōu yào chūqù pǎobù.<br/>
-		B: 是 啊， 我 每天 早上 都 要 出去 跑步。<br/><br/>
+		B: 是 啊， 我 每天 早上 都 要 出去 跑步。<br/>
 		<span class="masked">A: </span>Nǐ měitiān jǐ diǎn qǐ chuáng？<br/>
-		A: 你 每天 几 点 起床？<br/><br/>
+		A: 你 每天 几 点 起床？<br/>
 		<span class="masked">B: </span>Wǒ měitiān liù diǎn qǐchuáng<br/>
-		B: 我 每天 六 点 起 床<br/><br/>
+		B: 我 每天 六 点 起 床<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
@@ -62,25 +62,25 @@ if(login_check($mysqli) == true) {
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson">2. <button class="cd" onclick="play('02-02-2');">&#128191; 2-2</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-02-2"><source src="../mandarin/audio/02-02-2.mp3" type="audio/mpeg">No audio</audio></h4>
 	<h4 class="textSection">2.2. Kè wén èr. Zài yīyuàn.<br/>漯文二。在医院。<br/>Text 2. In the hospital.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Chī yàole ma? Xiànzài shēntǐ zěnmeyàng?<br/>
-		A: 吃 药了 吗？ 现在 身体 怎么样？<br/><br/>
+		A: 吃 药了 吗？ 现在 身体 怎么样？<br/>
 		<span class="masked">B: </span>Chīle. Xiànzài hǎoduōle<br/>
-		B: 吃了。 现在 好多了。<br/><br/>
+		B: 吃了。 现在 好多了。<br/>
 		<span class="masked">A: </span>Shénme shíhòu néng chūyuàn?<br/>
-		A: 什么 时候 能 出院？<br/><br/>
+		A: 什么 时候 能 出院？<br/>
 		<span class="masked">B: </span>Yīshēng shuō xià gè xīngqí.<br/>
-		B: 医生 说 下 个 星期。<br/><br/>
+		B: 医生 说 下 个 星期。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
 		A: Did you take your medicine? How do you feel now?<br/>
 		B: Yes, I did. I feel much better now.<br/>
 		A: When can you leave the hospital?<br/>
-		B: Next week according to the doctor.<br/><br/>
+		B: Next week according to the doctor.<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<div class="table-responsive">
@@ -94,22 +94,22 @@ if(login_check($mysqli) == true) {
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson">3. <button class="cd" onclick="play('02-02-3');">&#128191; 2-3</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-02-3"><source src="../mandarin/audio/02-02-3.mp3" type="audio/mpeg">No audio</audio></h4>
 	<h4 class="textSection">2.3.&nbsp;Kè wén sān. Zài cāochǎng.<br/>漯文三。 在 操场。Text 3. On the playground.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Dà wèi jīnnián duōdà?<br/>
-		A: 大卫 今年 多大？<br/><br/>
+		A: 大卫 今年 多大？<br/>
 		<span class="masked">B: </span>Èrshí duō suì.<br/>
-		B: 二十 多岁。<br/><br/>
+		B: 二十 多岁。<br/>
 		<span class="masked">A: </span>Tā duō gāo?<br/>
-		A: 他 多 高？<br/><br/>
+		A: 他 多 高？<br/>
 		<span class="masked">B: </span>Yī mǐ bā jǐ.<br/>
-		B: 一 米 八 几。<br/><br/>
+		B: 一 米 八 几。<br/>
 		<span class="masked">A: </span>Nǐ zěnme zhīdào zhème duō a?<br/>
-		A: 你 怎么 知道 这么 多 啊？<br/><br/>
+		A: 你 怎么 知道 这么 多 啊？<br/>
 		<span class="masked">B: </span>Tā shì wǒ tóngxué.<br/>
-		B: 他 是 我 同学。<br/><br/>
+		B: 他 是 我 同学。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
@@ -131,18 +131,18 @@ if(login_check($mysqli) == true) {
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<h4 class="sublesson">4. <button class="cd" onclick="play('02-02-4');">&#128191; 2-4</button>
+	<h4 class="sublesson">
 	<audio controls="" preload="metadata" id="02-02-4"><source src="../mandarin/audio/02-02-4.mp3" type="audio/mpeg">No audio</audio></h4>
 	<h4 class="textSection">2.4. Kè wén sì. Zài fángjiān.<br/>漯文四。 在 房间<br/>Text 4. In the room.</h4>
 	<div class="col-xs-12 col-md-6 col">
 		<span class="masked">A: </span>Zhāng lǎoshī xīngqíliù yě bù xiūxí a?<br/>
-		A: 张 老师 星期六 也 不 休息 啊？<br/><br/>
+		A: 张 老师 星期六 也 不 休息 啊？<br/>
 		<span class="masked">B: </span>Shì a, tā zhè jǐ tiān hěn máng, méiyǒu shíjiān xiūxí.<br/>
-		B: 是 啊，他 这 几 天 很 忙， 没有 时间 休息。<br/><br/>
+		B: 是 啊，他 这 几 天 很 忙， 没有 时间 休息。<br/>
 		<span class="masked">A: </span>Nà huì hěn lèi ba?<br/>
-		A: 那 会 很 累 吧？<br/><br/>
+		A: 那 会 很 累 吧？<br/>
 		<span class="masked">B: </span>Tā měi tiān huílái dōu hěn lèi.<br/>
-		B: 他 每 天 回来 都 很 累。<br/><br/>
+		B: 他 每 天 回来 都 很 累。<br/>
 	</div>
 	<div class="col-xs-12 col-md-6 col">
 		<i>English Version</i><br/>
@@ -293,7 +293,7 @@ if(login_check($mysqli) == true) {
 				<td>队&nbsp;duì&nbsp;team<br/>阵&nbsp;zhèn&nbsp;battle array</td>
 			</tr>
 			<tr>
-				<td>横折折撇<br/>héngzhézhépiē<br/>Horizontal Double Turning Left Falling<br/><br/></td>
+				<td>横折折撇<br/>héngzhézhépiē<br/>Horizontal Double Turning Left Falling<br/></td>
 				<td><img style="width: 2em;" src="img/hengzhezhepie.png" alt="héngzhézhépiē"/></td>
 				<td>及&nbsp;jí&nbsp;	to reach<br/>极&nbsp;jí&nbsp;level, grade</td></tr>
 		</table>
