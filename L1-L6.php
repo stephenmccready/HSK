@@ -36,7 +36,7 @@ if(login_check($mysqli) == true) {
 		<span class="masked">B: </span>Wǒ huì shuō Hànyǔ.<br/>
 		B: 我 会 说 汉语。<br/><br/>
 		<span class="masked">A: </span>Nǐ māma huì shuō Hànyǔ ma?<br/>
-		A: 你 吗吗 会 说 汉语 吗？<br/>
+		A: 你 妈妈 会 说 汉语 吗？<br/>
 		<span class="masked">B: </span>Tā bú huì shuō.<br/>
 		B: 她 不 会 说。
 	</div>
@@ -53,7 +53,7 @@ if(login_check($mysqli) == true) {
 			<tr><th colspan="4"><i>New Words</i></th></tr>
 			<tr><td>会</td><td>huì</td><td>modal<br/>verb</td><td>can,<br/>to be able to</td></tr>
 			<tr><td>说</td><td>shuō</td><td>verb</td><td>to speak,<br/>to say</td></tr>
-			<tr><td>吗吗</td><td>māma</td><td>noun</td><td>mother</td></tr>
+			<tr><td>妈妈</td><td>māma</td><td>noun</td><td>mother</td></tr>
 		</table>
 		</div>
 	</div>
@@ -132,7 +132,7 @@ if(login_check($mysqli) == true) {
 		<tr><th>Subject</th><th>bú (不) 会 huì</th><th>Verb</th></tr>
 		<tr><td>(Wǒ) 我 (I)</td><td>(huì) 会 (can)</td><td>(xiě Hànzì) 写 汉字 (speak Chinese)</td></tr>
 		<tr><td>(Wǒ) 我 (I)</td><td>(bú huì) 不会 (can't)</td><td>(zuò Zhōngguó cài) 做 中国 菜 (make Chinese food)</td></tr>
-		<tr><td>(Nǐ māma) 你 吗吗 (Your mother)</td><td>(huì) 会 (can)</td><td>(shuō Hànyǔ ma) 说 汉语 吗？(speak Chinese?)</td></tr>
+		<tr><td>(Nǐ māma) 你 妈妈 (Your mother)</td><td>(huì) 会 (can)</td><td>(shuō Hànyǔ ma) 说 汉语 吗？(speak Chinese?)</td></tr>
 	</table>
 </div>
 <div class="container-fluid">
@@ -141,7 +141,7 @@ if(login_check($mysqli) == true) {
 	<table class="table table-responsive table-condensed">
 		<tr><th>Subject</th><th>Adverb of Degree</th><th>Adjective</th></tr>
 		<tr><td>(Wǒ) 我 (I)</td><td>(hěn) 很 (very)</td><td>(hǎo) 好。 (good)</td></tr>
-		<tr><td>(Wǒ māma de Hànyǔ) 我 吗吗 的 汉语 (My mother's Chinese)</td><td>(bú) 不 (not)</td><td>(hǎo) 好。 (good)</td></tr>
+		<tr><td>(Wǒ māma de Hànyǔ) 我 妈妈 的 汉语 (My mother's Chinese)</td><td>(bú) 不 (not)</td><td>(hǎo) 好。 (good)</td></tr>
 		<tr><td>(Zhōngguó cài) 中国 菜 (Chinese food)</td><td>(hěn) 很 (very)</td><td>(hǎochī) 好吃。 (delicious)</td></tr>
 	</table>
 </div>
